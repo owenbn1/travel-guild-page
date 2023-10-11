@@ -1,0 +1,87 @@
+body {
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  color: #000000;
+}
+
+header {
+  font-family: "Megrim", cursive;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+}
+#page-logo a {
+  padding: 10px;
+  font-family: "Megrim", cursive;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  width: 100%;
+}
+
+header a:hover {
+  color: rgb(165, 0, 0);
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header li {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#destinations {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+  padding: 0;
+  justify-content: center;
+}
+
+#highlights {
+  font-family: "Carrois Gothic SC", cursive;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 24px;
+  background: linear-gradient(0deg, rgb(0, 0, 0), rgb(3, 8, 31));
+}
+
+ ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer li{
+  margin:0 30px;
+}
+
+footer img{
+  width: 70%;
+}
